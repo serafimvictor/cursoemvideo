@@ -1,0 +1,27 @@
++ adição
+
+- subtração
+
+* multiplicação
+
+/ divisão
+
+** potência
+
+// Divisão inteira
+
+% resto da divisão
+
+== igual
+
+
+
+# Ordem de precedência
+
+1 - ()
+
+2 - **
+
+3 - *, /, //, % (Quem aparecer primeiro)
+
+4 - +, -

@@ -1,0 +1,14 @@
+int - Inteiros
+Números inteiros, ou seja: 7, 4, -2, 652...
+
+float -
+São números com ponto flutuante(Números reais ou "quebrados"), ou seja:
+4.5, 5.3, -9.6, 7.0...
+
+bool - Booleanos
+Só recebem True ou False
+Se atentar pq são sempre com a primeira maiúscula
+
+str - String
+String é como se fosse letras, palavras, coisas escritas, ou seja:
+'Oi', 'Coé amigo', '72'...

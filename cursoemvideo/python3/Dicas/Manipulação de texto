@@ -1,0 +1,91 @@
+from dataclasses import replace
+
+len - Refere a length
+Retorna o comprimento do que está na string
+Exemplo:
+frase = 'Cursinho'
+len(frase)
+
+Vai retornar 8 que é a quantidade de caracteres
+
+=======================================================================
+
+.count - refere a contagem 
+Retorna a contagem do que foi selecionado na string
+Exemplo:
+frase = 'Caçadora'
+frase.count('a') Da pra fatiar
+
+Vai retornar 3, que é a quantidade de vezes que o a aparece.
+
+=======================================================================
+
+in - Vai procurar dentro da frase e retornar True ou False
+Exemplo:
+
+frase = 'Curso de python'
+Curso in frase
+
+Vai retornar True
+
+=======================================================================
+
+replace - sobrescreve uma string
+Exemplo:
+
+frase = 'Sou muito chato'
+frase.replace('chato', 'maneiro')
+
+Vai trocar a palavra chato por maneiro na frase
+
+=======================================================================
+
+upper - Fica tudo em maiusculo
+
+frase = 'victor'
+frase.upper()
+
+=======================================================================
+
+lower - fica tudo em minusculo
+exemplo:
+
+frase = 'VICTOR'
+frase.upper()
+
+=======================================================================
+
+Capitalize - Deixa somente a primeira letra da string em maiusculo
+
+se tiver escrito 'Curso de Video', vai ficar 'Curso de video'
+
+=======================================================================
+
+title - Deixa a primeira letra de cada palavra da string em maiusculo
+
+se tiver escrito 'curso de Video', vai ficar 'Curso De Video'
+
+=======================================================================
+
+strip - remove todos os espaços no inicio e final da string
+
+utilização = frase.strip()
+
+=======================================================================
+
+rstrip - tira os espaços à direita 
+
+lstrip - tira os espaços à esquerda
+
+l e r antes das funções refere-se a lado
+
+=======================================================================
+
+split - Usado pra dividir baseado nos espaços dentro da string
+Cria uma lista com a string toda, dividindo tudo pelo espaço
+
+frase.split()
+
+=======================================================================
+
+' '.join(frase) - junta a lista em uma unica string com o conteudo das aspas simples antes

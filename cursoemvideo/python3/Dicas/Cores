@@ -1,0 +1,30 @@
+Estilos: 
+0 - Sem Estilos
+1 - Negrito
+4 - Sublinhado
+7 - negativo (inverte as cores)
+
+Texto (cor do texto):
+30 - Branco
+31 - Vermelho
+32 - Verde
+33 - Amarelo
+34 - Azul
+35 - Roxo
+36 - Azul claro
+37 - Cinza
+
+Back (fundo da escrita):
+40 - Branco
+41 - Vermelho
+42 - Verde
+43 - Amarelo
+44 - Azul
+45 - Roxo
+46 - Azul claro
+47 - Cinza
+
+Estrutura do codigo:
+
+Exemplo:
+\033[0;33;44m

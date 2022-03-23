@@ -1,0 +1,11 @@
+Todo 'elif' precisa de um 'if', mas não necessariamente de um else:
+
+exemplo aula:
+
+if carro.direita():
+    bloco 1
+elif carro.esquerda():
+    bloco 2
+else:                       # Poderia ser outro 'elif'
+    bloco 3
+

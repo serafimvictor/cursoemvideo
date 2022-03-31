@@ -1,0 +1,10 @@
+For serve pra repetir, tem um contador, exemplo:
+
+for i in range(0,3):
+    if moeda:
+        pega
+    passo
+    pula
+passo
+pega
+

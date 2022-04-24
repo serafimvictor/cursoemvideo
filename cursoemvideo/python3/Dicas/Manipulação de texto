@@ -51,7 +51,7 @@ lower - fica tudo em minusculo
 exemplo:
 
 frase = 'VICTOR'
-frase.upper()
+frase.lower()
 
 =======================================================================
 

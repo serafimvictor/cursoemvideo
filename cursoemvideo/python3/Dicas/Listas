@@ -1,0 +1,13 @@
+Listas são definidas por colchetes e são mutáveis
+
+.append('<valor>') = Adiciona algo no final da lista 
+.insert(<posição>, '<valor>') = insere em qualquer posição que queira
+
+.pop(<indice>)
+
+.remove('<valor>')
+
+valores = list(range(4, 11)) - vai contar de 4 a 10 e dentro de uma lista com nome de valores
+
+.sort() - ordena os valores da lista
+.sort(reverse=True) - ordena em ordem inversa

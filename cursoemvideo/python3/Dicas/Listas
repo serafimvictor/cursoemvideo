@@ -11,3 +11,11 @@ valores = list(range(4, 11)) - vai contar de 4 a 10 e dentro de uma lista com no
 
 .sort() - ordena os valores da lista
 .sort(reverse=True) - ordena em ordem inversa
+
+Da pra colocar lista dentro de lista
+Exemplos:
+dados = ['Victor', 24]
+pessoas.append(dados[:])
+pessoas = [['Victor', 24], ['Myllena', 23], ['Natã', 17]]
+print(pessoas[0][0]) # Printa Victor
+print(pessoas[1]) # Printa ['Myllena', 23]

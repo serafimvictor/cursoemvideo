@@ -1,0 +1,24 @@
+Dicionários são definidos por chaves, exemplo:
+dados = {'nome':'Victor','idade':25}
+dados = dict()
+print(dados['nome'])  # Victor
+print(dados['idade'])  # 25
+
+Pra adicionar novos itens o append não funciona, pode ser feito da seguinte forma:
+
+dados['sexo']='M' # Vai criar um novo elemento ao final
+
+Pra remover elementos se usa o del:
+
+del dados['idade']
+
+Dicionario funciona como Key/Value/items:
+
+items = toda a estrutura, ou seja:
+print(dados.items()) # Retorna tudo, nesse caso vai vir nome, victor, idade, 25, sexo, m
+
+keys = São as chaves dos dados, pode ser comparado com os indices em lista:
+print(dados.keys()) # Retorna somente as chaves: nome, idade e sexo
+
+values = São os valores contidos nas keys:
+print(dados.values()) # Vai vir somente os valores: Victor, 25 e M

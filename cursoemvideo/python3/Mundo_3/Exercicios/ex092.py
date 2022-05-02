@@ -23,3 +23,4 @@ if pessoa['ctps'] != 0:
 print('-=' * 30)
 for key, value in pessoa.items():
     print(f' - {key}: {value}')
+    

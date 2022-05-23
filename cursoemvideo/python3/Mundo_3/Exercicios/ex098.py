@@ -6,7 +6,6 @@
 
 from time import sleep
 
-
 def contador(i, f, p):
     cont = 0
     for c in range(i, f, p):
@@ -14,6 +13,7 @@ def contador(i, f, p):
         print(c, end=' ')
     sleep(1)
     print('FIM.')
+
 
 print(f'{"-" * 10} Contador de 1 a 10 pulando 1 {"-" * 10}')
 contador(1, 11, 1)
@@ -24,3 +24,12 @@ print(f'{"-" * 10} Agora monte sua contagem {"-" * 10}')
 inicio = int(input('Qual número você quer iniciar a contagem? '))
 fim = int(input('Qual número será o final da contagem? '))
 pulo = int(input('A contagem vai pular de quanto em quanto? '))
+
+print(f'{"-" * 10} Contador de {inicio} a {fim} pulando {pulo} {"-" * 10}')
+
+if fim < inicio:
+    pulo *= -1
+else:
+    fim += 1
+
+contador(inicio, fim, pulo)

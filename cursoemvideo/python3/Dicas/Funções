@@ -1,0 +1,18 @@
+Funções referenciam a rotina, tudo que é repetitivo pode tornar-se uma função (ou def)
+
+Toda função em python é identificada por parenteses no final. Ex:
+
+def mostraLinha():
+    print('--------')
+mostraLinha()
+print(' Titulo ')
+mostraLinha()
+
+##########################################################
+
+def mensagem(msg):
+    print('-' * 30)
+    print(msg:^30)
+    print('-' * 30)
+
+mensagem('Sistema de Alunos')

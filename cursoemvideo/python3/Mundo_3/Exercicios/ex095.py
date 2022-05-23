@@ -42,4 +42,3 @@ while True:
             print(f'  - Na {i + 1}º partida: {g} gols.')
 
 print('Obrigado, volte sempre!')
-    

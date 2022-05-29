@@ -1,3 +1,6 @@
+from re import S
+
+
 Funções referenciam a rotina, tudo que é repetitivo pode tornar-se uma função (ou def)
 
 Toda função em python é identificada por parenteses no final. Ex:
@@ -16,3 +19,51 @@ def mensagem(msg):
     print('-' * 30)
 
 mensagem('Sistema de Alunos')
+
+######################### DOCSTRING ##################################
+
+Funções personalizadas podem ser documentadas com um comentário logo abaixo do 'def', exemplo:
+
+def contador(i, f, p):
+    """
+    -> Faz uma contagem e mostra na tela.
+    :param i: Início da contagem
+    :param f: Fim da contagem
+    :param p: Passo da contagem
+    :return: Sem retorno
+    """
+    c = i
+    while c <= f:
+        print(f'{c}', end='')
+        c += p
+    print('FIM!')
+
+######################### Parametros opcionais ##########################
+
+Para que o parametro seja opcional, basta colocar ele  igual a 0, exemplo:
+
+def soma(a=0, b=0, c=0):
+
+######################### Escopo de variáveis ##############################
+
+Variáveis fora da função funcionam em todo código, mas as que estão dentro da função funcionam
+somente na função.
+
+o local não é sobreposto pelo global
+
+para sobrepor a variável local, usar global <var>
+
+################################ Return ############################################
+
+o return pode ser usado para retornar o resultado de uma função e personalizar o print fora dela, ex:
+
+def soma(a=0, b=0, c=0):
+    s = a + b + c
+    return s
+
+r1 = soma(3, 2, 5)
+r2 = soma(2, 2)
+r3 = soma(6)
+
+print(f'Os resultados foram {r1}, {r2} e {r3}')
+
